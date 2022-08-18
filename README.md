@@ -1,9 +1,10 @@
 # Python Servers
 A collection of Python servers with different features
 
-1. Python 2 - Simple HTTPS Server with file upload and basic authenticaiton.
-2. Python 3 - Simple HTTP Server with IP whitelisting for visitors.
+1. simple-http-server-with-upload.py is a pure python http server that allows file upload.
+2. simple-http-server-with-whitelisting.py is a pure python http server with country whitelisting. In case you host your server publically and you only want connections from specific countries.
+3. simple-https-server-with-upload-and-auth.py is a pure python https server with ssl, file upload functionality and basic authentication.
 
 
 # Other useful servers
-- Updog
+- Updog https://github.com/sc0tfree/updog
