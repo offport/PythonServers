@@ -4,6 +4,8 @@
 ## CREATE A CERTIFICATE
 ## openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes
 
+## RUN
+## python simple-https-server-with-upload-and-auth.py 4433 admin:password
 
 import os
 import posixpath
