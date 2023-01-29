@@ -32,3 +32,6 @@ def run(server_class=HTTPServer, handler_class=WebShell, port=8000):
     httpd.serve_forever()
 
 run()
+
+#Example: http://127.0.0.1:8000/whoami
+#Requireements: pip3 install flask
