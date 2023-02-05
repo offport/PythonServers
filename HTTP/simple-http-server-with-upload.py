@@ -34,7 +34,7 @@ class SimpleHTTPRequestHandler(http.server.BaseHTTPRequestHandler):
 
     """
  
-    server_version = "SimpleHTTPWithUpload/" + __version__
+    server_version = "SimpleHTTPWithUpload/" 
  
     def do_GET(self):
         """Serve a GET request."""
